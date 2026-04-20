@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "email": "dilan@test.com",
+      "password": "$2a$10$Zu3FWaMVmilx82Gv6SHEHu1vSTiUZlWziLspPocrV5/4TyUt509gy",
+      "name": "DIlan",
+      "id": 1
+    }
+  ],
+  "sujetos": [
+    {
+      "id": 1,
+      "nombre": "Sujeto Alfa",
+      "edad": 25,
+      "condicion": "Control",
+      "notas": "Sujeto para línea base de EEG"
+    }
+  ],
+  "sesiones": [
+    {
+      "id": 1,
+      "sujetoId": 1,
+      "tipo": "EEG-Imaginación Motora",
+      "dispositivo": "OpenBCI Cyton",
+      "fecha": "2026-04-20",
+      "observaciones": "Filtro notch aplicado a 50Hz"
+    }
+  ]
+}
