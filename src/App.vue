@@ -10,13 +10,15 @@
 </template>
 
 <style>
-/* Estilos globales */
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body { font-family: sans-serif; background: #f4f7f6; }
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: #f0f2f5; /* Gris claro de fondo */
+  color: #2c3e50;
+}
 
 .container {
-  max-width: 1200px;
-  margin: 25px auto;
-  padding: 0 20px;
+  max-width: 1100px;
+  margin: 40px auto;
 }
 </style>

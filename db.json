@@ -5,6 +5,12 @@
       "password": "$2a$10$Zu3FWaMVmilx82Gv6SHEHu1vSTiUZlWziLspPocrV5/4TyUt509gy",
       "name": "DIlan",
       "id": 1
+    },
+    {
+      "email": "juan@test.com",
+      "password": "$2a$10$fMoHEs5BUDQZnYQhcybAbeoVy0lJ2MulvXSjuTtM4xnleqP/1q3WS",
+      "name": "Juan",
+      "id": 2
     }
   ],
   "sujetos": [
@@ -14,6 +20,13 @@
       "edad": 25,
       "condicion": "Control",
       "notas": "Sujeto para línea base de EEG"
+    },
+    {
+      "nombre": "Dilan",
+      "edad": 30,
+      "condicion": "Paciente",
+      "notas": "Paciente experimental para imaginería motora",
+      "id": 2
     }
   ],
   "sesiones": [
@@ -24,6 +37,17 @@
       "dispositivo": "OpenBCI Cyton",
       "fecha": "2026-04-20",
       "observaciones": "Filtro notch aplicado a 50Hz"
+    },
+    {
+      "id": 2
+    },
+    {
+      "sujetoId": 2,
+      "tipo": "P300",
+      "dispositivo": "Emotiv",
+      "fecha": "2026-04-20",
+      "observaciones": "Filtro notch y filtro kalman para análisis en frecuencia",
+      "id": 3
     }
   ]
 }
